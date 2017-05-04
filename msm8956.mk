@@ -232,6 +232,10 @@ PRODUCT_PACKAGES += \
     init.radon.rc \
     ueventd.qcom.rc
 
+# Recovery
+PRODUCT_PACKAGES += \
+    librecovery_updater_xiaomi
+
 # Sensors
 PRODUCT_PACKAGES += \
     sensors.msm8952
