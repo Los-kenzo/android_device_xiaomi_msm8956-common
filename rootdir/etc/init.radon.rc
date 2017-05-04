@@ -69,8 +69,9 @@ write /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq 883200
 write /sys/module/msm_thermal/core_control/enabled 1
 
 # CPU BOOST PARAMETERS
+write /sys/module/cpu_boost/parameters/input_boost_enabled 1
 write /sys/module/cpu_boost/parameters/input_boost_freq "0:1305600 4:998400"
-write /sys/module/cpu_boost/parameters/input_boost_ms 60
+write /sys/module/cpu_boost/parameters/input_boost_ms 50
 
 # SET IO SCHEDULER
 setprop sys.io.scheduler "fiops"
