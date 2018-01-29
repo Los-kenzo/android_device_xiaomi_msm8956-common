@@ -82,7 +82,7 @@ write /sys/devices/soc.0/1c00000.qcom,kgsl-3d0/kgsl/kgsl-3d0/min_pwrlevel 6
 write /sys/devices/soc.0/1c00000.qcom,kgsl-3d0/kgsl/kgsl-3d0/devfreq/min_freq 266666667
 
 # CPU BOOST PARAMETERS
-write /sys/module/cpu_boost/parameters/input_boost_freq "0:1190400 4:1113600"
+write /sys/module/cpu_boost/parameters/input_boost_freq "0:1305600 4:1113600"
 write /sys/module/cpu_boost/parameters/input_boost_ms 40
 
 # SET IO SCHEDULER
